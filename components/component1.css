@@ -1,0 +1,224 @@
+.component1-container1 {
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: var(--dl-layout-space-unit);
+  padding-top: var(--dl-layout-space-threeunits);
+  margin-right: var(--dl-layout-space-oneandhalfunits);
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-threeunits);
+  justify-content: flex-start;
+}
+ 
+.component1-container2 {
+  width: 20vh;
+  height: 90vh;
+  display: grid;
+  margin-right: 0px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+ 
+.component1-text1 {
+  fill: #11151c;
+  color: #11151c;
+  height: 1fr;
+  display: flex;
+  font-size: 2.5em;
+  align-items: flex-end;
+  font-family: "JetBrains Mono";
+  grid-row-end: 2;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-column-start: 1;
+}
+ 
+.component1-ul1 {
+  color: #5e6572;
+  height: 1fr;
+  display: flex;
+  font-size: 1.2em;
+  margin-top: 0px;
+  align-items: flex-start;
+  grid-row-end: 3;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  flex-direction: column;
+  grid-row-start: 2;
+  grid-column-end: 2;
+  justify-content: center;
+  grid-column-start: 1;
+}
+ 
+.component1-ul2 {
+  color: #5e6572;
+  height: 1fr;
+  display: flex;
+  font-size: 1.2em;
+  margin-top: 0px;
+  align-items: flex-start;
+  grid-row-end: 4;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  flex-direction: column;
+  grid-row-start: 3;
+  grid-column-end: 2;
+  justify-content: flex-start;
+  grid-column-start: 1;
+}
+ 
+.component1-link5 {
+  color: #5e6572;
+}
+ 
+.component1-container3 {
+  gap: var(--dl-layout-space-halfunit);
+  width: auto;
+  height: 1fr;
+  display: flex;
+  align-items: flex-end;
+  grid-row-end: 5;
+  flex-direction: row;
+  grid-row-start: 4;
+  grid-column-end: 2;
+  grid-column-start: 1;
+}
+ 
+.component1-icon1 {
+  width: var(--dl-layout-size-small);
+  height: var(--dl-layout-size-small);
+  transition: 0.3s;
+  margin-right: 0px;
+}
+ 
+.component1-icon1:hover {
+  transform: scale(1.2);
+}
+ 
+.component1-image {
+  width: var(--dl-layout-size-small);
+  height: var(--dl-layout-size-small);
+  object-fit: cover;
+  transition: 0.3s;
+  grid-row-end: 2;
+  grid-row-start: 1;
+  grid-column-end: 3;
+  grid-column-start: 2;
+}
+ 
+.component1-image:hover {
+  transform: scale(1.2);
+}
+ 
+.component1-fragment1 {
+  display: contents;
+}
+ 
+.component1-text2 {
+  display: inline-block;
+}
+ 
+.component1-fragment2 {
+  display: contents;
+}
+ 
+.component1-text3 {
+  display: inline-block;
+}
+ 
+.component1-fragment3 {
+  display: contents;
+}
+ 
+.component1-text4 {
+  display: inline-block;
+}
+ 
+.component1-fragment4 {
+  display: contents;
+}
+ 
+.component1-text5 {
+  display: inline-block;
+}
+ 
+.component1-fragment5 {
+  display: contents;
+}
+ 
+.component1-text6 {
+  display: inline-block;
+}
+ 
+.component1-fragment6 {
+  display: contents;
+}
+ 
+.component1-text7 {
+  display: inline-block;
+}
+ 
+.component1-fragment7 {
+  display: contents;
+}
+ 
+.component1-text8 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .component1-container1 {
+    width: 30%;
+  }
+  .component1-text1 {
+    font-size: 2.3em;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .component1-container1 {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: var(--dl-layout-space-twounits);
+  }
+  .component1-container2 {
+    width: 100%;
+    height: 100%;
+  }
+  .component1-text1 {
+    color: rgb(17, 21, 28);
+    display: flex;
+    align-items: center;
+    font-family: JetBrains Mono;
+    justify-content: center;
+  }
+  .component1-ul1 {
+    font-size: 1.5em;
+    align-items: center;
+  }
+  .component1-ul2 {
+    font-size: 1.5em;
+    align-items: center;
+  }
+  .component1-container3 {
+    align-items: center;
+    justify-content: center;
+  }
+  .component1root-class-name {
+    display: none;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .component1-container1 {
+    margin-left: 0px;
+  }
+}
